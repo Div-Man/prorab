@@ -1,0 +1,118 @@
+.title-masters {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+ 
+.masters-alfabet {
+    padding: 20px;
+}
+
+.masters-category {
+    border: 1px solid;
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    background: #B3E5FC;
+    padding: 2px 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+.masters-alfabet-category {
+    padding: 20px;
+}
+
+.masters-category:hover {
+    cursor: pointer;
+}
+
+.alfabet-category {
+    color: red;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: relative;
+} 
+
+.masters-specialization {
+    border: 1px solid;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    text-align: center;
+    min-width: 100px;
+   
+}
+
+.masters-specialization a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.masters-specialization .countMaster {
+    border-bottom: 1px solid;
+}
+
+/************************************/
+
+.master-block {
+    border: 1px solid;
+    padding: 20px;
+}
+
+.master-block .left {
+    float: left;
+    margin-right: 20px;
+}
+
+.master-block .right {
+    float: left;
+    width: 70%;
+}
+
+.master-digit {
+    color: #FF7508;
+}
+
+.master-block .master-rating {
+    margin-top: 10px;
+}
+
+.master-block .bold {
+    font-weight: bold;
+}
+
+.master-block .description {
+    border: 1px solid;
+    width: 100%;
+    padding: 20px 0;
+    padding-left: 10px;
+}
+
+.master-category-count {
+    color: #A5AAAD;
+    font-size: 12px;
+    vertical-align: top;
+    display: inline-block;
+    position:relative;
+    top: 3px;
+    left: 5px;
+    
+}
+
+.master-category-count:after{
+    content: '';
+    display: inline-block;
+    border-top: 1px solid #A5AAAD;
+    width: 10px;
+    position: absolute;
+    top: 17px;
+    left: -1px;
+}
